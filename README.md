@@ -49,9 +49,3 @@ java -cp bin Main
 ```
 java -cp bin Main
 ```
-
-5. Open in browser
-
-```
-http://localhost:5000
-```
