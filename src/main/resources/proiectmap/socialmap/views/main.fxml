@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            prefHeight="600.0" prefWidth="800.0">
+    <children>
+        <TabPane prefHeight="600.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE">
+            <!-- Users Tab -->
+            <tabs>
+                <Tab text="Users">
+                    <content>
+                        <fx:include source="users.fxml"/>
+                    </content>
+                </Tab>
+
+                <!-- Friendships Tab -->
+                <Tab text="Friendships">
+                    <content>
+                        <fx:include source="friendships.fxml"/>
+                    </content>
+                </Tab>
+
+                <!-- Add User Tab -->
+                <Tab text="Add User">
+                    <content>
+                        <fx:include source="add-user.fxml"/>
+                    </content>
+                </Tab>
+
+
+                <!-- Add Friendship Tab -->
+                <Tab text="Add Friendship">
+                    <content>
+                        <fx:include source="add-friendship.fxml"/>
+                    </content>
+                </Tab>
+
+                <!-- Login Tab -->
+                <Tab text="Login">
+                    <content>
+                        <fx:include source="login.fxml"/>
+                    </content>
+                </Tab>
+
+                <!-- Sign Up Tab -->
+                <Tab text="Sign Up">
+                    <content>
+                        <fx:include source="sign-up.fxml"/>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>

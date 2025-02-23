@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proiectmap.socialmap.controller.SignUpController">
+    <children>
+        <VBox alignment="CENTER" spacing="10.0" layoutX="100.0" layoutY="50.0">
+            <children>
+                <Label text="Sign Up" />
+                <TextField fx:id="idField" promptText="Enter ID" />
+                <TextField fx:id="firstNameField" promptText="Enter First Name" />
+                <TextField fx:id="lastNameField" promptText="Enter Last Name" />
+                <TextField fx:id="emailField" promptText="Enter Email" />
+                <PasswordField fx:id="passwordField" promptText="Enter Password" />
+                <Button fx:id="signUpButton" text="Sign Up" onAction="#handleSignUp" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

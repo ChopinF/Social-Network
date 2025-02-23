@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="proiectmap.socialmap.controller.LoginController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <VBox alignment="CENTER" spacing="10.0" layoutX="200.0" layoutY="100.0">
+            <children>
+                <Label text="Login" />
+                <TextField fx:id="emailField" promptText="Enter Email" />
+                <PasswordField fx:id="passwordField" promptText="Enter Password" />
+                <Button fx:id="loginButton" text="Login" onAction="#handleLogin" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
